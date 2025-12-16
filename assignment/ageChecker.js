@@ -1,6 +1,6 @@
 // Declare the ageChecker function here: BY: Cristine
 
-function ageChecker(age) {
+const ageChecker = (age) => {
 
 }
 
