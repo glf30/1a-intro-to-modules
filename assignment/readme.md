@@ -1,38 +1,5 @@
 # 1A. Assignment
 
----
-
-### Goals
-
-- Create modules
-- Export modules
-- Import modules
-- Run files
-
----
-
-### Setup
-
-Open a terminal in the `assignment` directory. There are a couple of ways to do this, but the simplest is to move your mouse pointer to the file explorer to the left in VS Code and right-click (or control-click) on the assignment folder (or any of the files in it). You should see the name of the directory (assignment) in your terminal prompt, to the left of where you type.
-
----
-
-### Workflow
-
-- After filling out each function in it's own file, export it at the bottom with `module.exports = [name of function]`, with [name of function] replaced with the actual name of the actual function.
-- Import the function in `tests.js` using `const [function name] = require('[path to file you're importing from]')`. You can view the test cases in the test file. They should match the description in this README.
-- To check how far you are in the assignment, run the tests file using command `node tests.js` and you should see some check marks in green for each sub test passed, and a red `X` for failed subtests. If the colorized things do not show up, it will just tell you which major tests failed, and list the latest subtest that was failed. For example, if you complete the Age Checker subtest for ages less than 17 (returns `"Child"`, then the most recent failed subtest will be the one that returns `"Military Age"`
-
----
-
-### General Tips and Tricks
-
-- Remember that we're testing to see what your function _returns_, so be sure to return your values.
-- Your export statements _always_ need to use the exact variable names they're exporting.
-- In this assignment, your import statements also need to, since the test code is already written with those function names in mind.
-
----
-
 ### Problem Descriptions
 
 ##### Age Checker
