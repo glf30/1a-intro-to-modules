@@ -1,5 +1,7 @@
 # 1A. Assignment
 
+Your goal is to finish the following functions in their respective files and then test them inside a diffrerent `main.js` file by exporting them
+
 ### Problem Descriptions
 
 ##### Age Checker
